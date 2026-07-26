@@ -1,0 +1,240 @@
+{
+  "schema": "clrty.mis_repo/v1",
+  "creator": "Chandler William Ferguson",
+  "org": "clarity-fintech",
+  "repo": "dune-analytics-streamer",
+  "title": "Dune Analytics Streamer",
+  "domain": "dune_analytics_streamer",
+  "deep_root": {
+    "language": "moniversive",
+    "dialect": "mis-ml",
+    "extension": ".mis",
+    "language_root": "CLRTY_SUBSTRATE/boot/moniversive_language_root.json",
+    "settlement_network": "clrty-1",
+    "settlement_chain_id": 1202,
+    "letter_hash": "sha256-rolling-typed-letter/v1",
+    "compiler": "bin/misc"
+  },
+  "kernel": "mis/kernel/DuneAnalyticsStreamerKernel.mis",
+  "backlink_index": "mis/backlinks/MisBacklinkIndex.mis",
+  "packs": [
+    {
+      "name": "QueryExport",
+      "slug": "query_export",
+      "band": "1..=20",
+      "module": "mis/packs/query_export.mis",
+      "ids": [
+        "query_export_001",
+        "query_export_002",
+        "query_export_003",
+        "query_export_004",
+        "query_export_005",
+        "query_export_006",
+        "query_export_007",
+        "query_export_008",
+        "query_export_009",
+        "query_export_010",
+        "query_export_011",
+        "query_export_012",
+        "query_export_013",
+        "query_export_014",
+        "query_export_015",
+        "query_export_016",
+        "query_export_017",
+        "query_export_018",
+        "query_export_019",
+        "query_export_020"
+      ]
+    },
+    {
+      "name": "StreamSeal",
+      "slug": "stream_seal",
+      "band": "21..=40",
+      "module": "mis/packs/stream_seal.mis",
+      "ids": [
+        "stream_seal_021",
+        "stream_seal_022",
+        "stream_seal_023",
+        "stream_seal_024",
+        "stream_seal_025",
+        "stream_seal_026",
+        "stream_seal_027",
+        "stream_seal_028",
+        "stream_seal_029",
+        "stream_seal_030",
+        "stream_seal_031",
+        "stream_seal_032",
+        "stream_seal_033",
+        "stream_seal_034",
+        "stream_seal_035",
+        "stream_seal_036",
+        "stream_seal_037",
+        "stream_seal_038",
+        "stream_seal_039",
+        "stream_seal_040"
+      ]
+    },
+    {
+      "name": "LakePublish",
+      "slug": "lake_publish",
+      "band": "41..=60",
+      "module": "mis/packs/lake_publish.mis",
+      "ids": [
+        "lake_publish_041",
+        "lake_publish_042",
+        "lake_publish_043",
+        "lake_publish_044",
+        "lake_publish_045",
+        "lake_publish_046",
+        "lake_publish_047",
+        "lake_publish_048",
+        "lake_publish_049",
+        "lake_publish_050",
+        "lake_publish_051",
+        "lake_publish_052",
+        "lake_publish_053",
+        "lake_publish_054",
+        "lake_publish_055",
+        "lake_publish_056",
+        "lake_publish_057",
+        "lake_publish_058",
+        "lake_publish_059",
+        "lake_publish_060"
+      ]
+    },
+    {
+      "name": "DashboardBind",
+      "slug": "dashboard_bind",
+      "band": "61..=80",
+      "module": "mis/packs/dashboard_bind.mis",
+      "ids": [
+        "dashboard_bind_061",
+        "dashboard_bind_062",
+        "dashboard_bind_063",
+        "dashboard_bind_064",
+        "dashboard_bind_065",
+        "dashboard_bind_066",
+        "dashboard_bind_067",
+        "dashboard_bind_068",
+        "dashboard_bind_069",
+        "dashboard_bind_070",
+        "dashboard_bind_071",
+        "dashboard_bind_072",
+        "dashboard_bind_073",
+        "dashboard_bind_074",
+        "dashboard_bind_075",
+        "dashboard_bind_076",
+        "dashboard_bind_077",
+        "dashboard_bind_078",
+        "dashboard_bind_079",
+        "dashboard_bind_080"
+      ]
+    },
+    {
+      "name": "MetricTick",
+      "slug": "metric_tick",
+      "band": "81..=100",
+      "module": "mis/packs/metric_tick.mis",
+      "ids": [
+        "metric_tick_081",
+        "metric_tick_082",
+        "metric_tick_083",
+        "metric_tick_084",
+        "metric_tick_085",
+        "metric_tick_086",
+        "metric_tick_087",
+        "metric_tick_088",
+        "metric_tick_089",
+        "metric_tick_090",
+        "metric_tick_091",
+        "metric_tick_092",
+        "metric_tick_093",
+        "metric_tick_094",
+        "metric_tick_095",
+        "metric_tick_096",
+        "metric_tick_097",
+        "metric_tick_098",
+        "metric_tick_099",
+        "metric_tick_100"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "LanguageRoot",
+      "path": "CLRTY_SUBSTRATE/boot/moniversive_language_root.json"
+    },
+    {
+      "name": "MisCodeIndex",
+      "path": "CLRTY_SUBSTRATE/boot/mis_code_index.json"
+    },
+    {
+      "name": "MisEcosystemRepos",
+      "path": "CLRTY_SUBSTRATE/boot/mis_ecosystem_repos_manifest.json"
+    },
+    {
+      "name": "StaticMlCatalog",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_static_ml_invariants.json"
+    },
+    {
+      "name": "MisNativeKernels",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_mis_native_kernels_776_875.json"
+    },
+    {
+      "name": "MisArchitecture",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_mis_architecture_primitives_876_975.json"
+    },
+    {
+      "name": "MisChainIntake",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_mis_chain_intake_976_1025.json"
+    },
+    {
+      "name": "GradientBand",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_gradient_invariants_201_300.json"
+    },
+    {
+      "name": "TickArchitecture",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_tick_architecture.json"
+    },
+    {
+      "name": "TickStakingGradient",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_tick_staking_gradient_propagation.json"
+    },
+    {
+      "name": "ProtocolStructures",
+      "path": "CLRTY_SUBSTRATE/boot/clrty1_protocol_structures_100.json"
+    },
+    {
+      "name": "MisKernelActiveOnly",
+      "path": "CLRTY_SUBSTRATE/boot/mis_kernel_active_only.json"
+    },
+    {
+      "name": "MisKernelSource",
+      "path": "moniversive/framework/mis_kernel.mis"
+    },
+    {
+      "name": "MisAllCodeIndex",
+      "path": "moniversive/framework/MisAllCodeIndex.mis"
+    },
+    {
+      "name": "MlKernelRepo",
+      "path": "https://github.com/clarity-fintech/moniversive_invariant_static_ML"
+    },
+    {
+      "name": "ClrtyMisKernelRepo",
+      "path": "https://github.com/clarity-fintech/CLRTY-MIS-Kernel"
+    },
+    {
+      "name": "MiscCompiler",
+      "path": "bin/misc"
+    }
+  ],
+  "clrty1": {
+    "network": "clrty-1",
+    "chain_id": 1202
+  },
+  "siblings": {
+    "static_ml": "https://github.com/clarity-fintech/moniversive_invariant_static_ML",
+    "mis_kernel": "https://github.com/clarity-fintech/CLRTY-MIS-Kernel"
+  }
+}

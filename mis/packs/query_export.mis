@@ -1,0 +1,174 @@
+// Moniversive Invariant Static (MIS) — deep root
+// Creator: Chandler William Ferguson
+// Letter-hash + EMBED gates 3..=6 · settlement clrty-1 / chain 1202
+// Compile: bin/misc <file>.mis --check --compact-letters
+// Title: Dune Analytics Streamer · QueryExport
+
+module DuneAnalyticsStreamerQueryExport {
+
+  invariant letter_hash_bound: letter_hash_root != @0;
+  invariant deep_root_moniversive: deep_root == moniversive;
+  invariant settlement_chain: chain_id == 1202;
+  invariant settlement_network_clrty1: settlement_network == clrty_1;
+  invariant kernel_is_misc: compiler_kernel == misc;
+  invariant pack_query_export_bound: pack_bound == true;
+  invariant catalog_backlink: mis_catalog_bound == true;
+
+  invariant query_export_001: query_export_001_bound == true;
+  invariant query_export_002: query_export_002_bound == true;
+  invariant query_export_003: query_export_003_bound == true;
+  invariant query_export_004: query_export_004_bound == true;
+  invariant query_export_005: query_export_005_bound == true;
+  invariant query_export_006: query_export_006_bound == true;
+  invariant query_export_007: query_export_007_bound == true;
+  invariant query_export_008: query_export_008_bound == true;
+  invariant query_export_009: query_export_009_bound == true;
+  invariant query_export_010: query_export_010_bound == true;
+  invariant query_export_011: query_export_011_bound == true;
+  invariant query_export_012: query_export_012_bound == true;
+  invariant query_export_013: query_export_013_bound == true;
+  invariant query_export_014: query_export_014_bound == true;
+  invariant query_export_015: query_export_015_bound == true;
+  invariant query_export_016: query_export_016_bound == true;
+  invariant query_export_017: query_export_017_bound == true;
+  invariant query_export_018: query_export_018_bound == true;
+  invariant query_export_019: query_export_019_bound == true;
+  invariant query_export_020: query_export_020_bound == true;
+
+  outcome assert_pack(payload: Bytes) {
+    require payload != @0;
+    constraint pack_bound == true;
+  }
+
+  outcome settle_clrty1(intent: Bytes) {
+    require intent != @0;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_query_export_001(payload: Bytes) {
+    require payload != @0;
+    constraint query_export_001_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_query_export_002(payload: Bytes) {
+    require payload != @0;
+    constraint query_export_002_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_query_export_003(payload: Bytes) {
+    require payload != @0;
+    constraint query_export_003_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_query_export_004(payload: Bytes) {
+    require payload != @0;
+    constraint query_export_004_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_query_export_005(payload: Bytes) {
+    require payload != @0;
+    constraint query_export_005_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_query_export_006(payload: Bytes) {
+    require payload != @0;
+    constraint query_export_006_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_query_export_007(payload: Bytes) {
+    require payload != @0;
+    constraint query_export_007_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_query_export_008(payload: Bytes) {
+    require payload != @0;
+    constraint query_export_008_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_query_export_009(payload: Bytes) {
+    require payload != @0;
+    constraint query_export_009_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_query_export_010(payload: Bytes) {
+    require payload != @0;
+    constraint query_export_010_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_query_export_011(payload: Bytes) {
+    require payload != @0;
+    constraint query_export_011_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_query_export_012(payload: Bytes) {
+    require payload != @0;
+    constraint query_export_012_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_query_export_013(payload: Bytes) {
+    require payload != @0;
+    constraint query_export_013_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_query_export_014(payload: Bytes) {
+    require payload != @0;
+    constraint query_export_014_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_query_export_015(payload: Bytes) {
+    require payload != @0;
+    constraint query_export_015_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_query_export_016(payload: Bytes) {
+    require payload != @0;
+    constraint query_export_016_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_query_export_017(payload: Bytes) {
+    require payload != @0;
+    constraint query_export_017_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_query_export_018(payload: Bytes) {
+    require payload != @0;
+    constraint query_export_018_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_query_export_019(payload: Bytes) {
+    require payload != @0;
+    constraint query_export_019_bound == true;
+    constraint chain_id == 1202;
+  }
+
+  outcome assert_query_export_020(payload: Bytes) {
+    require payload != @0;
+    constraint query_export_020_bound == true;
+    constraint chain_id == 1202;
+  }
+
+
+  outcome export_onchain_query(payload: Bytes) {
+    require payload != @0;
+    constraint query_export_sealed == true;
+    constraint chain_id == 1202;
+  }
+}
